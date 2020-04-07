@@ -80,10 +80,6 @@ The exposed methods to keep an error log are:
 
 Follow these tips and have a happy code. 
 
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
 ### Security
 
 If you discover any security related issues, please email luilliarcec@gmail.com instead of using the issue tracker.
