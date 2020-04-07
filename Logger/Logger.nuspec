@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package >
   <metadata>
-    <id>Luilliarcec.Logger</id>
-    <version>1.0.1</version>
-    <authors>Luis Arce</authors>
-    <owners>Luis Arce</owners>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
-    <projectUrl>https://github.com/luilliarcec/windows-forms-logger/</projectUrl>
-    <description>Helps keep a record of exceptions generated at runtime.</description>
+    <projectUrl>https://github.com/luilliarcec/netframework-logger</projectUrl>
+    <repository type="git" url="https://github.com/luilliarcec/netframework-logger.git" branch="master" commit="910d0882db66aef3761a7ff1cc658d7d181fde63" />
+    <description>$description$</description>
     <releaseNotes>Logger exceptions.</releaseNotes>
     <copyright>Copyright 2020</copyright>
-    <tags>Log Errors WindowsForms Logger Luilliarcec</tags>
+    <tags>Log Errors WindowsForms Logger</tags>
   </metadata>
 </package>
