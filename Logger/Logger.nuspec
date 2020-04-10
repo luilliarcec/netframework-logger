@@ -9,7 +9,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/luilliarcec/netframework-logger</projectUrl>
-    <repository type="git" url="https://github.com/luilliarcec/netframework-logger.git" branch="master" commit="c62a118ec5e5f1cb57188e182abad895b68a0f40" />
+    <repository type="git" url="https://github.com/luilliarcec/netframework-logger.git" branch="master" commit="2fa8635ada7f60b59bfa00214b313766ddee9600" />
     <description>$description$</description>
     <releaseNotes>Send bug report by mail.</releaseNotes>
     <copyright>Copyright 2020</copyright>
