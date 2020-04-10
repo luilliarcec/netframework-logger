@@ -11,7 +11,7 @@
     <projectUrl>https://github.com/luilliarcec/netframework-logger</projectUrl>
     <repository type="git" url="https://github.com/luilliarcec/netframework-logger.git" branch="master" commit="c62a118ec5e5f1cb57188e182abad895b68a0f40" />
     <description>$description$</description>
-    <releaseNotes>Logger exceptions.</releaseNotes>
+    <releaseNotes>Send bug report by mail.</releaseNotes>
     <copyright>Copyright 2020</copyright>
     <tags>Log Errors WindowsForms Logger</tags>
   </metadata>

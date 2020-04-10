@@ -1,11 +1,18 @@
-﻿using System;
+﻿using Luilliarcec.Logger.Support;
+using System;
 using System.Diagnostics;
 using System.IO;
+using System.Net.Mail;
 
 namespace Luilliarcec.Logger
 {
-    public class Log
+    public static class Log
     {
+        /// <summary>
+        /// Event delegate that runs when mail delivery is complete
+        /// </summary>
+        public static event SendCompletedEventHandler SendCompleted;
+
         /// <summary>
         /// Log Path
         /// </summary>
@@ -98,6 +105,26 @@ namespace Luilliarcec.Logger
         public static bool Exists()
         {
             return File.Exists(Path);
+        }
+
+        /// <summary>
+        /// Email the bug report
+        /// </summary>
+        public static void Send()
+        {
+            new Mailer().SendAsync(Path, SendCompleted);
+        }
+
+        /// <summary>
+        /// Email the bug report
+        /// </summary>
+        /// <param name="from_name">Sender name</param>
+        /// <param name="username">Sender email</param>
+        /// <param name="password">Sender password</param>
+        /// <param name="to">Receiver email</param>
+        public static void Send(string from_name = null, string username = null, string password = null, string to = null)
+        {
+            new Mailer(from_name, username, password, to).SendAsync(Path, SendCompleted);
         }
 
         #region <<< PRIVATE FUNCTIONS >>>
