@@ -1,7 +1,9 @@
 # Net Framework Logger
 
 [![latest version](https://img.shields.io/nuget/v/Luilliarcec.Logger)](https://www.nuget.org/packages/Luilliarcec.Logger) 
+![Azure DevOps tests](https://img.shields.io/azure-devops/tests/luilliarcec/netframework-logger/5)
 [![downloads](https://img.shields.io/nuget/dt/Luilliarcec.Logger)](https://www.nuget.org/packages/Luilliarcec.Logger)
+[![GitHub license](https://img.shields.io/github/license/luilliarcec/netframework-logger)](https://github.com/luilliarcec/netframework-logger/blob/master/LICENSE.md)
 
 Helps keep a record of exceptions generated at runtime.
 
